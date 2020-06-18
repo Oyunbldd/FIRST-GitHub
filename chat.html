@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Secret</title>
+    <link rel="stylesheet" href="./chat.css" />
+    <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-database.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">SECRET SOCIETY</div>
+        <div id="messages"></div>
+        <div class="div-input-container">
+            <input class="input" type="text" />
+            <button class="send" onclick="send()">send</button>
+        </div>
+    </div>
+</body>
+<script>
+    var firebaseConfig = {
+        apiKey: "AIzaSyBVASC9fZaeegY_9jtNgT6-ZKm05uFyLjg",
+        authDomain: "top-secretchat.firebaseapp.com",
+        databaseURL: "https://top-secretchat.firebaseio.com",
+        projectId: "top-secretchat",
+        storageBucket: "top-secretchat.appspot.com",
+        messagingSenderId: "952096065596",
+        appId: "1:952096065596:web:87d09078bed91a82f65b39",
+        measurementId: "G-51N24B34MR",
+    };
+    firebase.initializeApp(firebaseConfig);
+</script>
+<script src="./chat.js"></script>
+
+</html>

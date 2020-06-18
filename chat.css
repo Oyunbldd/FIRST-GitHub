@@ -1,0 +1,46 @@
+body {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+.container {
+  margin-top: 50px;
+  height: 60vh;
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f6f7;
+}
+.header {
+  font-size: 48px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkslategray;
+}
+#messages {
+  width: 420px;
+  height: 573px;
+  color: white;
+  overflow-y: scroll;
+  margin-bottom: 10px;
+  flex: 1;
+  background-color: #f1f1f1;
+}
+.div-input-container {
+  margin-bottom: 20px;
+}
+.input {
+  width: 470px;
+  height: 18px;
+}
+.message {
+  margin-right: 4px;
+  padding: 8px;
+  background-color: deeppink;
+  border-radius: 3px;
+  margin-bottom: 8px;
+  color: white;
+}
